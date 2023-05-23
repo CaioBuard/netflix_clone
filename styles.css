@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("assets/background.jpg");
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+  
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 1);
+}
+.img__logo{
+    width: 10em;
+    height: auto;
+}
+
+main{
+    min-height: 100vh; 
+}
+
+.login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    display: inline-block;
+    padding: 8% 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+.info__dados{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+.info__entrar{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.info__lembrar{
+    text-align: left;
+    margin-top: 1em;
+    font-size: .8em;
+}
+
+.newClient {
+    margin-top: 3em;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
